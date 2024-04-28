@@ -2,6 +2,8 @@
 [![Version](https://img.shields.io/badge/Version-v1.0-green.svg)]()
 [![Language](https://img.shields.io/badge/Language-Python-orange.svg)](https://www.python.org/)
 
+Demo: [https://youtu.be/EJi825crMMI](https://youtu.be/EJi825crMMI)
+
 Una extensión para Burp que para cada request tipo POST que tenga parámetros envía un segundo request tipo GET con los mismos parámetros en el body de la petición e informando en los logs de la extensión en caso que el resultado del POST sea código HTTP 20X.
 
 Esta extensión solo se aplica para peticiones cuyo Content-Type sea _**application/x-www-form-urlencoded**_
